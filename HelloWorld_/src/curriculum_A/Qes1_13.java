@@ -3,45 +3,44 @@ package curriculum_A;
 public class Qes1_13 {
 	public static void main(String[] args) {
 		// 問1
-		byte b;
-		short s;
-		int x;
-		long l;
-		float f;
-		double d;
-		char c;
-		String n;
-		boolean t;
-
+		byte byteNum;
+		short shtNum;
+		int intNum;
+		long lngNum;
+		float fltNum;
+		double doubleNum;
+		char character;
+		String str;
+		boolean Isboolean;
 		// 問2
-		b = 0;
-		s = 0;
-		x = 0;
-		l = 0;
-		f = 0.0f;
-		d = 0.0;
-		c = '\u0000';
-		n = null;
+		byteNum = 0;
+		shtNum = 0;
+		intNum = 0;
+		lngNum = 0;
+		fltNum = 0.0f;
+		doubleNum = 0.0;
+		character = '\u0000';
+		str = null;
 
 		// 問3
-		b = 10;
-		s = 100;
-		x = 1000;
-		l = 10000;
-		f = 9.5f;
-		d = 10.5;
-		c = 'a';
-		n = "ハロー";
-		t = true;
+		byteNum = 10;
+		shtNum = 100;
+		intNum = 1000;
+		lngNum = 10000;
+		fltNum = 9.5f;
+		doubleNum = 10.5;
+		character = 'a';
+		str = "ハロー";
+		Isboolean = true;
 
 		// 問4
-		System.out.println(b + s + x + l);
-		System.out.println(b + b);
-		System.out.println(c + n + t);
-		System.out.println(b + s + x + l + f + d);
-		System.out.println(b * s * x * l);
-		System.out.println(d / x);
-		System.out.println(b - s);
+		System.out.println(byteNum + shtNum + intNum + lngNum);
+		System.out.println(byteNum + byteNum);
+		System.out.println(character + str + Isboolean);
+		System.out.println(byteNum + shtNum + intNum + lngNum + fltNum + doubleNum);
+		System.out.println(byteNum * shtNum * intNum * lngNum);
+		System.out.println(doubleNum / intNum);
+		System.out.println(byteNum - shtNum);
 
 		// 問5
 		int num = 20;
@@ -55,7 +54,7 @@ public class Qes1_13 {
 		double wei = 62.2;
 		String food = "オムライス";
 		double bmi = wei / ((hei / 100.0) * (hei / 100.0));
-		bmi = ((double)Math.round(bmi * 10))/10;
+		bmi = ((double) Math.round(bmi * 10)) / 10;
 		System.out.println("初めまして" + name + "です");
 		System.out.println("年齢は" + age + "歳です");
 		System.out.println("身長は" + hei + "cmです");
@@ -77,7 +76,7 @@ public class Qes1_13 {
 		wei = 64.2;
 		food = "オムライス";
 		bmi = wei / ((hei / 100.0) * (hei / 100.0));
-		bmi = ((double)Math.round(bmi * 10))/10;
+		bmi = ((double) Math.round(bmi * 10)) / 10;
 		System.out.println("初めまして" + name + "です");
 		System.out.println("年齢は" + age + "歳です");
 		System.out.println("身長は" + hei + "cmです");
@@ -92,7 +91,7 @@ public class Qes1_13 {
 		wei = (wei + wei);
 		food = "オムライス";
 		bmi = wei / ((hei / 100.0) * (hei / 100.0));
-		bmi = ((double)Math.round(bmi * 100))/100;
+		bmi = ((double) Math.round(bmi * 100)) / 100;
 		System.out.println("初めまして" + name + "です");
 		System.out.println("年齢は" + age + "歳です");
 		System.out.println("身長は" + hei + "cmです");
