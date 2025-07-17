@@ -58,7 +58,7 @@ public class Qes1_3 {
 				System.out.println("たかがじゃんけん、そう思ってないですか？");
 				System.out.println("それやったら次も、俺が勝ちますよ");
 				System.out.println();
-				// パーで負ける時
+				// パーで負けた時
 			} else if (com == 1 && myhand == 2) {
 				System.out.println("俺の勝ち！");
 				System.out.println("なんで負けたか、明日までに考えといてください。");
