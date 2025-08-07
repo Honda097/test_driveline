@@ -6,6 +6,7 @@ public class Ques7 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		
 		System.out.print("生徒の人数を入力してください（2以上）:");
 		int stu = scanner.nextInt();
 		while (true) {
