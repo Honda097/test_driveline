@@ -39,7 +39,7 @@ public class Ques7 {
 				total += scores[i][j];
 			}
 			double average = (double)total / stu;
-			System.out.println(j + lists.length + "の平均点は" + String.format("%.2f",average) + "点です。");	
+			System.out.println(lists[j] + "の平均点は" + String.format("%.2f",average) + "点です。");	
 		}
 	}
 }
