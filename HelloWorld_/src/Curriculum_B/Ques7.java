@@ -33,13 +33,18 @@ public class Ques7 {
 			System.out.println((i + 1) + "人目の平均点は" + String.format("%.2f",average) + "点です。");
 		}
 			System.out.println();
+			int all = 0;
 		for(int j = 0; j < lists.length; j++) {
 			int total = 0;
 			for(int i = 0; i < stu; i++) {
 				total += scores[i][j];
+				all += scores[i][j];
 			}
 			double average = (double)total / stu;
-			System.out.println(j + lists.length + "の平均点は" + String.format("%.2f",average) + "点です。");	
+			System.out.println(lists[j] + "の平均点は" + String.format("%.2f",average) + "点です。");
 		}
+			double average = (double)all / lists.length;
+			average = average / stu;
+			System.out.println("全体の平均点は" + String.format("%.2f",average)+ "点です。");
 	}
 }
