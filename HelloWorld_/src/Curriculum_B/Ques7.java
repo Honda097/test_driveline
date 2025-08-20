@@ -41,7 +41,9 @@ public class Ques7 {
 				all += scores[i][j];
 			}
 			double average = (double)total / stu;
+
 			System.out.println(lists[j] + "の平均点は" + String.format("%.2f",average) + "点です。");
+			System.out.println(lists[j] + "の平均点は" + String.format("%.2f",average) + "点です。");	
 		}
 			double average = (double)all / lists.length;
 			average = average / stu;
