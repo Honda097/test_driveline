@@ -9,7 +9,7 @@ public class Ques6 {
 		Scanner scanner = new Scanner(System.in);
 		String user = scanner.nextLine();
 		String [] shoplist = user.split("、");
-		int tvstok = -1;		
+		int tvstok = -1;
 		for (String value:shoplist) {
 			Random rnd = new Random();
 			int stok = rnd.nextInt(12);

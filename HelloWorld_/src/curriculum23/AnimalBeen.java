@@ -6,17 +6,17 @@ public class AnimalBeen {
 	private double  high;
 	private int speed; 
 	
-	//getterを用意
+	// getterを用意
 	public String getName() {
 		return name;
 	}
 	public double getHigh() {
 		return high;
 	}
-	//setterを用意
 	public int getSpeed() {
 		return speed;
 	}
+	// setterを用意
 	public void setName(String name) {
 		this.name = name;
 	}
