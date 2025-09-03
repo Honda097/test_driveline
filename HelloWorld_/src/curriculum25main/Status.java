@@ -27,5 +27,6 @@ public class Status {
 		System.out.println("素早さ" + hero.getSpeed());
 		System.out.println("防御力" + hero.getGuard());
 		System.out.println("さあ冒険に出かけよう！");
+		scanner.close();
 	}
 }
