@@ -8,11 +8,11 @@ public class AnimalsMain {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("コンソールに文字を入力してください");
 		String animalOrder = scanner.nextLine();
-		Animals animal = new Animals();
 		// 各動物の情報で区切る
 		String[] animals = animalOrder.split(",");
 		// 各動物の項目で区切る
 		for (int i = 0; i < animals.length; i++) {
+			Animals animal = new Animals();
 			String[] items = animals[i].split(":");
 			// 各動物の名前をセットする
 			animal.setName(items[0]);
