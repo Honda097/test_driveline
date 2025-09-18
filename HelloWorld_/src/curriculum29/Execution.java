@@ -1,11 +1,18 @@
 package curriculum29;
 
-import Process.Process;
+import java.util.Scanner;
+
+import Procedure.Procedure;
+
 public class Execution {
 
 	public static void main(String[] args) {
-		Process process = new Process();
+		
+		Scanner scanner = new Scanner(System.in);
+		String num = scanner.nextLine();
+		String upDown = scanner.nextLine();
+		Procedure process = new Procedure(num, upDown);
 		process.sort();
+		scanner.close();
 	}
-
 }
