@@ -9,17 +9,15 @@ public class Procedure {
 	// コンソールに書かれた数字を受け取る
 	String num;
 	String upDown;
-
+	String[] nums;
+	int[] nums1;
 	public Procedure(String num, String upDown) {
 		this.num = num;
 		this.upDown = upDown;
+		nums = num.split(",");
+		//String型配列 を int型配列 に変換
+		nums1 = Stream.of(nums).mapToInt(Integer::parseInt).toArray();
 	}
-
-	String[] nums = num.split(",");
-	
-	//String型配列 を int型配列 に変換
-	int[] nums1 = Stream.of(nums).mapToInt(Integer::parseInt).toArray();
-
 	public void sort() {
 		// コンソールに書かれた数字を"up"に並び替える
 		Arrays.sort(nums1);
